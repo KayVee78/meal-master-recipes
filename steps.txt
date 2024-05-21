@@ -6,3 +6,7 @@ npm i ts-node typescript nodemon @types/cors @types/express @types/node --save-d
 
 ---------------------------------------------Database---------------------------------------------
 Use ElephantSQL for DBMS
+
+
+---------------------------------------------FE---------------------------------------------
+npm init
