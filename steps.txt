@@ -2,10 +2,18 @@
 npm init
 npm i express prisma @prisma/client cors
 npm i ts-node typescript nodemon @types/cors @types/express @types/node --save-dev
+npm i dotenv
 
+--Get the API key from spoonacular API--
+go to my console > profile > copy the key
+use thunder client (as postman alternative) (req url -> https://api.spoonacular.com/recipes/complexSearch?apiKey=6563d91802974d08b2c24be1b3ae817d)
+
+--To debug TS--
+npm install --save-dev ts-node tsconfig-paths
 
 ---------------------------------------------Database---------------------------------------------
-Use ElephantSQL for DBMS
+include DATABASE_URL in .env
+npx prisma init
 
 
 ---------------------------------------------FE---------------------------------------------
