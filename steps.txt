@@ -17,4 +17,6 @@ npx prisma init
 
 
 ---------------------------------------------FE---------------------------------------------
-npm init
+in the root directory -> pm create vite@latest
+cd frontend -> npm install
+start -> npm run dev
