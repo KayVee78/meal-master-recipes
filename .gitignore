@@ -8,6 +8,7 @@ frontend/node_modules/
 
 # Logs
 frontend/logs
+frontend/.vite
 frontend/*.log
 frontend/npm-debug.log*
 frontend/yarn-debug.log*

@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import * as dotenv from 'dotenv';
+import * as dotenv from "dotenv";
 dotenv.config();
 
 import * as RecipeAPI from "./recipe-api";
@@ -14,6 +14,12 @@ app.get("/api/recipes/search", async (req, res) => {
   const searchTerm = req.query.searchTerm as string;
   const page = parseInt(req.query.page as string);
   const results = await RecipeAPI.searchRecipes(searchTerm, page);
+  return res.json(results);
+});
+
+app.get("/api/recipes/:recipeId/summary", async (req, res) => {
+  const recipeId = req.params.recipeId;
+  const results = await RecipeAPI.getRecipeSummary(recipeId);
   return res.json(results);
 });
 
