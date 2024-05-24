@@ -11,6 +11,8 @@ use thunder client (as postman alternative) (req url -> https://api.spoonacular.
 --To debug TS--
 npm install --save-dev ts-node tsconfig-paths
 
+start -> npm start
+
 ---------------------------------------------Database---------------------------------------------
 include DATABASE_URL in .env
 npx prisma init
