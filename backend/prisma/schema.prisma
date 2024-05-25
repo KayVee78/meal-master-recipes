@@ -8,3 +8,9 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+//Creating the model (table)
+model FavouriteRecipes {
+  id       Int @id @default(autoincrement())
+  recipeId Int @unique
+}

@@ -17,8 +17,10 @@ start -> npm start
 include DATABASE_URL in .env
 npx prisma init
 
+After creating the model in schema.prisma file -> npx prisma db push (this will automatically create the tables in the db using the model we created here)
+
 
 ---------------------------------------------FE---------------------------------------------
-in the root directory -> pm create vite@latest
+in the root directory -> npm create vite@latest
 cd frontend -> npm install
 start -> npm run dev
