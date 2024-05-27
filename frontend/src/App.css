@@ -35,10 +35,22 @@
   max-width: 500px;
 }
 
-.recipe-card{
+.tabs {
+  display: flex;
+  gap: 2em;
   cursor: pointer;
 }
 
-.close-btn{
+.recipe-card-title{
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.recipe-card {
+  cursor: pointer;
+}
+
+.close-btn {
   cursor: pointer;
 }

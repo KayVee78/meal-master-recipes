@@ -23,4 +23,5 @@ After creating the model in schema.prisma file -> npx prisma db push (this will 
 ---------------------------------------------FE---------------------------------------------
 in the root directory -> npm create vite@latest
 cd frontend -> npm install
+npm i react-icons
 start -> npm run dev
