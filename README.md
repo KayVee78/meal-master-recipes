@@ -87,7 +87,7 @@ An app to explore PostgreSQL, Express.js, React.js and Node.js fundamentals (PER
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/KayVee78/recipe-app.git
+   https://github.com/KayVee78/meal-master-recipes.git
    ```
 2. Install NPM packages
    ```sh
