@@ -2,6 +2,119 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 100vh;
+  background-color: #e5fbff;
+}
+
+@media (min-width: 768px) {
+  body {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}
+
+.tab-active {
+  border-bottom: 4px #44B549 solid;
+  padding-bottom: 0.5em;
+}
+
+form {
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 1.5em;
+  flex: 1;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2em;
+}
+
+.recipe-card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 1em;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  gap: 1.5em;
+}
+
+.recipe-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.recipe-card h3{
+  font-size: 1.5em;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.view-more-button{
+  font-size: 1em;
+  padding: 1em;
+  font-weight: bold;
+  margin: auto;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.header {
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 45%;
+  border-radius: 1em;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  background-color: #272425;
+  opacity: 80%;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -29,7 +142,7 @@
 }
 
 .modal-content {
-  background-color: white;
+  background-color: #CEFDEC;
   padding: 2em;
   border-radius: 4px;
   max-width: 500px;
@@ -38,16 +151,6 @@
 .tabs {
   display: flex;
   gap: 2em;
-  cursor: pointer;
-}
-
-.recipe-card-title{
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-}
-
-.recipe-card {
   cursor: pointer;
 }
 
