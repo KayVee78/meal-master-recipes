@@ -111,8 +111,6 @@ https://spoonacular.com/
    npx nodemon
    ```
 
-https://github.com/KayVee78/meal-master-recipes/assets/90994452/1b30d732-fe18-4104-8453-6e88e6b65781
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
