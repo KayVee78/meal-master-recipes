@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <p align="center">
-   RECIPE    APP - PERN
+   RECIPE APP - PERN
     <br />
     <br />
   </p>
@@ -34,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-An app to explore PostgreSQL, Express.js, React.js and Node.js fundamentals (PERN stack).
+A full-stack PERN (PostgreSQL, Express, React, Node.js) application that allows users to search for recipes, add their favourites, and manage their favourite recipes.
 
 <dl>
   <dt>Index.ts</dt>
