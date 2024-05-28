@@ -37,9 +37,8 @@
 A full-stack PERN (PostgreSQL, Express, React, Node.js) application that allows users to search for recipes, add their favourites, and manage their favourite recipes.
 
 <dl>
-  <dt>Index.ts</dt>
+  <dt>index.ts</dt>
   <dd>BE - Entry point to the server.</dd>
-  <dd>FE - Entry point to the client application.</dd>
   <dt>App.tsx</dt>
   <dd>Main component of the entire application.</dd>
   <dt>package.json</dt>
