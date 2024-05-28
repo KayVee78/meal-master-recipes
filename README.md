@@ -85,7 +85,7 @@ An app to explore PostgreSQL, Express.js, React.js and Node.js fundamentals (PER
 * spoonacular API
   ```sh
   Generate an API key to use the spoonacular API via below link
-https://spoonacular.com/
+  https://spoonacular.com/
   ```
 
 ### Installation
@@ -110,6 +110,7 @@ https://spoonacular.com/
    ```sh
    npx nodemon
    ```
+![meal-master](https://github.com/KayVee78/meal-master-recipes/assets/90994452/1c49220d-e555-4d86-b187-70db525ff917)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
